@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CRUD_OPERATIONS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <script>confirm("Are you a student!");</script> <!--GIVING AN ALTER TO THE USER,IF STUDENT HE CAN PROCEED FORWARD-->
+    <h1>STUDENTS DETAIL FORM</h1>
+    <table>
+        <tr>
+            <td>   
+                <h2>Add Student</h2>
+        <form id="studentForm"> 
+            <!--CREATING THE INPUTS TO TALE THE RESPECTIVE DATA-->
+            <div><input type="text" id="name" placeholder="Name" required></div>          
+            <div><input type="text" id="email" placeholder="Email" required></div>
+            <div><input type="number" id="age" placeholder="Age" required></div>
+            <div><input type="number" id="phone" placeholder="PHONE" required></div>
+            <div><button type="submit">SUBMIT</button></div>
+        </form>
+    <td>
+        <table class="list">
+            <thead>
+                <tr><!--CREATING A SEPERATE BOX FOR REPESENTING THE DATA-->
+                        <h2>Students List</h2>
+                        <ul id="studentList"></ul>
+                </tr>
+            </thead>
+        </table>
+    </td>
+     </td>
+        </tr>
+        
+    </table>
+    <script src="script.js"></script>
+    <marquee style="color:white",font-size="1px">M SAI SATHWIK VARMA </marquee>
+</body>
+</html>
